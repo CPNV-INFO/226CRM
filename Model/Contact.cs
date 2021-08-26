@@ -14,17 +14,21 @@ namespace CRM
         #endregion private attributes
 
         #region public methods
-        public Contact (string name, string firstname, DateTime dateOfBirth, string nationality, string email, string pathToImg = "")
+        public Contact (string name, string firstname, DateTime dateOfBirth, string nationality, string email, string pathToImg = "/")
         {
-            //TODO
+            _name = name;
+            _firstname = firstname;
+            _dateOfBirth = dateOfBirth;
+            _nationality = nationality;
+            _email = email;
+            _pathToImg = pathToImg;
         }
 
         public string Name
         {
             get
             {
-                //TODO
-                throw new NotImplementedException();
+                return _name;
             }           
         }
 
@@ -32,8 +36,7 @@ namespace CRM
         {
             get
             {
-                //TODO
-                throw new NotImplementedException();
+                return _firstname;
             }
         }
 
@@ -41,8 +44,7 @@ namespace CRM
         {
             get
             {
-                //TODO
-                throw new NotImplementedException();
+                return _dateOfBirth;
             }
         }
 
@@ -50,8 +52,7 @@ namespace CRM
         {
             get
             {
-                //TODO
-                throw new NotImplementedException();
+                return _nationality;
             }
         }
 
@@ -59,8 +60,7 @@ namespace CRM
         {
             get
             {
-                //TODO
-                throw new NotImplementedException();
+                return _email;
             }
         }
 
@@ -68,8 +68,7 @@ namespace CRM
         {
             get
             {
-                //TODO
-                throw new NotImplementedException();
+                return _pathToImg;
             }
         }
         #endregion public methods
