@@ -27,14 +27,8 @@ namespace CRM
             this.UpdateGui();
         }
 
-        private void CreateContact()
-        {
-            contact = new Contact("Ricard", "Mathieu");
-        }
+        private void CreateContact(){}
 
-        private void UpdateGui()
-        {
-            this.textBoxName.Text = contact.Name;
-        }
+        private void UpdateGui(){}
     }
 }
