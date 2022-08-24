@@ -29,20 +29,20 @@ namespace CRM
 
         private void CreateContact()
         {
-            _contact = new Contact("Ricard", "Mathieu", new DateTime(1946, 02, 15), "France", "mathieu.ricard@monk.org", "ricard.png");
+            //_contact = new Contact("Ricard", "Mathieu", new DateTime(1946, 02, 15), "France", "mathieu.ricard@monk.org", "ricard.png");
         }
 
         private void UpdateGui()
         {
-            this.textBoxName.Text = _contact.Name;
-            this.textBoxFirstname.Text = _contact.Firstname;
-            this.textBoxDateOfBirth.Text = _contact.DateOfBirth.ToString("dd-MMM-yyy");
-            this.textBoxNationality.Text = _contact.Nationality;
-            this.textBoxEmail.Text = _contact.Email;
+            //this.textBoxName.Text = _contact.Name;
+            //this.textBoxFirstname.Text = _contact.Firstname;
+            //this.textBoxDateOfBirth.Text = _contact.DateOfBirth.ToString("dd-MMM-yyy");
+            //this.textBoxNationality.Text = _contact.Nationality;
+            //this.textBoxEmail.Text = _contact.Email;
             //TODO calculate resource name
-            this.pictureBox1.Image = global::_226TestApp.Properties.Resources.MathieuRicard;
-            this.labelCreationDate.Text = "Créé le :" + _contact.CreationDate;
-            this.labelLastUpdate.Text = "Mis à jour le :" + _contact.LastUpdate;
+            //this.pictureBox1.Image = global::_226TestApp.Properties.Resources.MathieuRicard;
+            //this.labelCreationDate.Text = "Créé le :" + _contact.CreationDate;
+            //this.labelLastUpdate.Text = "Mis à jour le :" + _contact.LastUpdate;
         }
     }
 }

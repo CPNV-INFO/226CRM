@@ -89,7 +89,7 @@ namespace CRM
             this.groupBoxPersonnalData.Controls.Add(this.labelName);
             this.groupBoxPersonnalData.Location = new System.Drawing.Point(155, 12);
             this.groupBoxPersonnalData.Name = "groupBoxPersonnalData";
-            this.groupBoxPersonnalData.Size = new System.Drawing.Size(277, 178);
+            this.groupBoxPersonnalData.Size = new System.Drawing.Size(296, 178);
             this.groupBoxPersonnalData.TabIndex = 1;
             this.groupBoxPersonnalData.TabStop = false;
             this.groupBoxPersonnalData.Text = "Données personnelles";
@@ -185,7 +185,7 @@ namespace CRM
             this.groupBoxDates.Controls.Add(this.labelCreationDate);
             this.groupBoxDates.Location = new System.Drawing.Point(33, 259);
             this.groupBoxDates.Name = "groupBoxDates";
-            this.groupBoxDates.Size = new System.Drawing.Size(376, 34);
+            this.groupBoxDates.Size = new System.Drawing.Size(418, 34);
             this.groupBoxDates.TabIndex = 2;
             this.groupBoxDates.TabStop = false;
             // 
@@ -214,7 +214,7 @@ namespace CRM
             this.groupBoxActions.Controls.Add(this.buttonModify);
             this.groupBoxActions.Location = new System.Drawing.Point(12, 196);
             this.groupBoxActions.Name = "groupBoxActions";
-            this.groupBoxActions.Size = new System.Drawing.Size(419, 63);
+            this.groupBoxActions.Size = new System.Drawing.Size(439, 63);
             this.groupBoxActions.TabIndex = 3;
             this.groupBoxActions.TabStop = false;
             this.groupBoxActions.Text = "Actions";
@@ -253,7 +253,7 @@ namespace CRM
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(444, 302);
+            this.ClientSize = new System.Drawing.Size(463, 302);
             this.Controls.Add(this.groupBoxActions);
             this.Controls.Add(this.groupBoxDates);
             this.Controls.Add(this.groupBoxPersonnalData);
