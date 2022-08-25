@@ -30,7 +30,7 @@ namespace CRM
         #region public methods
         public Contact (string name, string firstname, DateTime dateOfBirth, string nationality, string email, string pathToImg = "/")
         {
-            _name = name;
+            _name = "Rodolphe";
             _firstname = firstname;
             _dateOfBirth = dateOfBirth;
             _nationality = nationality;
@@ -47,7 +47,7 @@ namespace CRM
         {
             get
             {
-                throw new NotImplementedException();
+                return _name;
             }           
         }
 
